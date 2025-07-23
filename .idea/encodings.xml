@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/depasqladapter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ecom/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/inventry/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/messager/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/messager/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/messaging/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/messaging/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pssapp/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pssfx/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pssfx/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/psslib/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/psslib/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sbinventorysvc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sbpsssvc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sbpsssvc/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/transformer/src/main/java" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,36 @@
+version: "3.8"
+services:
+  pssdbsrvr:
+    image: mysql:8.0
+    container_name: mysql1
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: pssdb
+      MYSQL_USER: mysqluser
+      MYSQL_PASSWORD: password
+    ports:
+      - "3306:3306"
+      - "33060:33060"
+    volumes:
+      - ./db:/var/lib/mysql
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+    networks:
+      - pssdbnetwork
+
+  springboot-app:
+    image: sbpss
+    container_name: psssvc
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:mysql://pssdbsrvr:3306/pssdb
+      SPRING_DATASOURCE_USERNAME: mysqluser
+      SPRING_DATASOURCE_PASSWORD: password
+    ports:
+      - "8080:8080"
+    depends_on:
+      - pssdbsrvr
+    networks:
+      - pssdbnetwork
+
+networks:
+  pssdbnetwork:
+    driver: bridge
